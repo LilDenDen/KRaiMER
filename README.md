@@ -4,7 +4,9 @@
 
 put your API key at C:\Users\{user}\.openai\auth.json
 
-file format:	```
+file format:	
+
+```
 
 {
     "api_key": "api-key-here",
