@@ -1,0 +1,25 @@
+{
+"episode": "The Great Fruit Debate",
+"Characters": [
+"Jerry",
+"Elaine",
+"George"
+],
+"script": [
+{
+"name": "Jerry",
+"emotion": "Baffled",
+"dialogue": "What's the deal with everyone being obsessed with fruits lately?"
+},
+{
+"name": "Elaine",
+"emotion": "excited",
+"dialogue": "Jerry, it's all about getting the vitamins and minerals your body needs."
+},
+{
+"name": "George",
+"emotion": "Serious",
+"dialogue": "I personally believe the banana is the best fruit. It's portable, healthy, and always in season."
+}
+]
+}

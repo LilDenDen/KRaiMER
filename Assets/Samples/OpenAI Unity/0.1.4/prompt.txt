@@ -1,0 +1,25 @@
+write the script in a json format using the following example as the format "{
+  "episode": "The Soup Nazi",
+  "Characters": [
+    "Jerry",
+    "Elaine",
+    "George"
+  ],
+  "script": [
+    {
+      "name": "Jerry",
+      "emotion": "Curious",
+      "dialogue": "What's the deal with this Soup Nazi guy?"
+    },
+    {
+      "name": "Elaine",
+      "emotion": "surprised",
+      "dialogue": "He only makes the best soup in the city, Jerry."
+    },
+    {
+      "name": "George",
+      "emotion": "surprised",
+      "dialogue": "Yeah Jerry, Keep up"
+    }
+  ]
+}"

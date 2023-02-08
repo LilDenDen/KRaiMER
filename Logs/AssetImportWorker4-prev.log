@@ -1,0 +1,529 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 65458 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/adenr/My project (1)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60196
+Successfully changed project path to: C:/Users/adenr/My project (1)
+C:/Users/adenr/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25808] Host "[IP] 25.12.177.164 [Port] 0 [Flags] 2 [Guid] 2191533574 [EditorId] 2191533574 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4G3HOQK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25808] Host "[IP] 25.12.177.164 [Port] 0 [Flags] 2 [Guid] 2191533574 [EditorId] 2191533574 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4G3HOQK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adenr/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008648 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (569ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005975 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenr\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenr\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (113.4 KB). Loaded Objects now: 3528.
+Memory consumption went from 108.2 MB to 108.0 MB.
+Total: 2.473600 ms (FindLiveObjects: 0.253300 ms CreateObjectMapping: 0.191000 ms MarkObjects: 1.946200 ms  DeleteObjects: 0.082500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (77.1 KB). Loaded Objects now: 3528.
+Memory consumption went from 46.9 MB to 46.8 MB.
+Total: 3.009800 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.215200 ms MarkObjects: 2.482500 ms  DeleteObjects: 0.065000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenr\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenr\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3185 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (79.9 KB). Loaded Objects now: 3646.
+Memory consumption went from 111.6 MB to 111.5 MB.
+Total: 2.438500 ms (FindLiveObjects: 0.205900 ms CreateObjectMapping: 0.118400 ms MarkObjects: 2.031500 ms  DeleteObjects: 0.081800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1505429.719705 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(8ea00d44701db3e45b57890265ade3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(8ea00d44701db3e45b57890265ade3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e758a666e58aaa20dc1e5f3b7713c8') in 0.010661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.024979 seconds.
+  path: Assets/Samples/OpenAI Unity
+  artifactKey: Guid(c2305bd1514e01f46956cf718f83233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenAI Unity using Guid(c2305bd1514e01f46956cf718f83233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713bd4c7e89600fecffe28db796b37f') in 0.005379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.756834 seconds.
+  path: Assets/Samples/OpenAI Unity/0.1.4
+  artifactKey: Guid(87a8215b55d09584b863febfb566a275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenAI Unity/0.1.4 using Guid(87a8215b55d09584b863febfb566a275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f501ed40f025c5e2ba37364ae10f52') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.290471 seconds.
+  path: Assets/Plugins/crosstales/crosstales.asmdef
+  artifactKey: Guid(281d665a950180a4488512ef029ee937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/crosstales.asmdef using Guid(281d665a950180a4488512ef029ee937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d50de3cb953d5fcdd7c56e065f8799') in 0.019044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.560966 seconds.
+  path: Assets/Plugins/crosstales/RTVoice
+  artifactKey: Guid(99e87fa56d1eed848a710e5dd184ea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice using Guid(99e87fa56d1eed848a710e5dd184ea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c0e0c1d42b76b2da8541f490f63532') in 0.005054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.111385 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo
+  artifactKey: Guid(d4a0d8a2364ec0148a8e8e4ca1948816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo using Guid(d4a0d8a2364ec0148a8e8e4ca1948816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea2a768aa1a1bd3a37e6bfd5cc0b684') in 0.004875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.416437 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/03-Simple_Native.unity
+  artifactKey: Guid(703a67eb7caf65c4ebaa664f752f6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/03-Simple_Native.unity using Guid(703a67eb7caf65c4ebaa664f752f6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1a8abeb74f719298140b1ae62612eb') in 0.005494 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenr\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenr\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3185 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (79.9 KB). Loaded Objects now: 3649.
+Memory consumption went from 111.6 MB to 111.5 MB.
+Total: 2.544600 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.158300 ms MarkObjects: 2.092000 ms  DeleteObjects: 0.071500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.342864 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Scripts
+  artifactKey: Guid(afe0de5d7b722aa44a8665fe22e03883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Scripts using Guid(afe0de5d7b722aa44a8665fe22e03883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de2b1db335d865bae9b2fa011a18923') in 0.008536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.149635 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Scripts/SpeakWrapper.cs
+  artifactKey: Guid(6506271a5fedf624ea13c41e51c08959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Scripts/SpeakWrapper.cs using Guid(6506271a5fedf624ea13c41e51c08959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce534e93db3bc9eb479f12daa1f220e') in 0.006909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.633685 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Scripts/Simple.cs
+  artifactKey: Guid(335abd574a98cb64e92353e03f4f9e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Scripts/Simple.cs using Guid(335abd574a98cb64e92353e03f4f9e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5dc5a912aeefe0a8713f67da8f6adf') in 0.004807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.490787 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts/Model
+  artifactKey: Guid(965fe11c9f259104fbc922db300d89d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts/Model using Guid(965fe11c9f259104fbc922db300d89d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e572c0b07cdaf633b3a2f64380644e') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.691166 seconds.
+  path: Assets/Plugins/crosstales
+  artifactKey: Guid(139323e78ed8cad4bbb799391abe7432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales using Guid(139323e78ed8cad4bbb799391abe7432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e54e7482f8dacee840e7e0b7080b7e') in 0.001762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.639951 seconds.
+  path: Assets/Plugins/crosstales/Common
+  artifactKey: Guid(98534465d28683047b98a3fd82a5af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/Common using Guid(98534465d28683047b98a3fd82a5af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d292696624943ed97b0a622e3e1c39') in 0.004676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.825792 seconds.
+  path: Assets/Plugins/crosstales/Common/Scripts
+  artifactKey: Guid(ff00d7e70cdec0f48bc60a30e1040b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/Common/Scripts using Guid(ff00d7e70cdec0f48bc60a30e1040b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dabc6ca7a84119abf192ed3e81baf9') in 0.001891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.881110 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(f58aa3739b87f33449ac00890fa4fa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(f58aa3739b87f33449ac00890fa4fa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3a9ec1e73bd258bda42537635a5f82') in 0.004998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.703824 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts
+  artifactKey: Guid(d5e2089db9bd6af49b30709a17c4ab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts using Guid(d5e2089db9bd6af49b30709a17c4ab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23f18b8d4d6043d0188e7377c6d47d7') in 0.001818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.295201 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts/Delegates.cs
+  artifactKey: Guid(c6320e49ce1769f41ba52c9bd9915a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts/Delegates.cs using Guid(c6320e49ce1769f41ba52c9bd9915a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac36438361d232d0987beb4b39cecc5') in 0.005776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.333837 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts/LiveSpeaker.cs
+  artifactKey: Guid(b5907082d48125c43af0cfe08c54cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts/LiveSpeaker.cs using Guid(b5907082d48125c43af0cfe08c54cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f720fe19d136be10b2f42d672a9c8a0b') in 0.004862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.300358 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts/Speaker.cs
+  artifactKey: Guid(11222982cd0da5048a5b032a719ffd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts/Speaker.cs using Guid(11222982cd0da5048a5b032a719ffd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c0fb66cdf2ab7032471dd0793d0bee') in 0.004634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.846996 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts/VoiceProviderExample.cs
+  artifactKey: Guid(d2e3ecdeaceb6c54cb412f0aa9c898f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts/VoiceProviderExample.cs using Guid(d2e3ecdeaceb6c54cb412f0aa9c898f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73dbf2901b32dbcc88cfb5e39488b92') in 0.004998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.904761 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Scripts/Util
+  artifactKey: Guid(1111e4d320e16ea4ebf81b8051e8458f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Scripts/Util using Guid(1111e4d320e16ea4ebf81b8051e8458f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab2a8abd15a62b03790c578ec599ac4') in 0.004744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.540474 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Audio
+  artifactKey: Guid(2397bd7bbe3d2bc4fb9db692003c1f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Audio using Guid(2397bd7bbe3d2bc4fb9db692003c1f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8563236bc8b0e67974610317a4c230db') in 0.004829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035407 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Audio/Miau.wav
+  artifactKey: Guid(8f0f8361bbe00a043aa477c126e0f6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Audio/Miau.wav using Guid(8f0f8361bbe00a043aa477c126e0f6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82da864a90c07f20632f110c350e922c') in 0.071793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.429369 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs
+  artifactKey: Guid(3a07747feeffdb34086c5def71721afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs using Guid(3a07747feeffdb34086c5def71721afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd849234a6b7ce3178ba9d2575674caa1') in 0.004894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061462 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/AudioFileGenerator.prefab
+  artifactKey: Guid(9fa0df0eddbd4da4da51531003522cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/AudioFileGenerator.prefab using Guid(9fa0df0eddbd4da4da51531003522cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22adf7c11229ad4df5f1f3d94f50f85c') in 0.017512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007952 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/Cubes.prefab
+  artifactKey: Guid(9d1a8426b34fd3749bb5c32538644a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/Cubes.prefab using Guid(9d1a8426b34fd3749bb5c32538644a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450a67d343565f552f2bf5c877b7d24') in 0.044825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/VisualCube.prefab
+  artifactKey: Guid(5a5be8e0388433a4da8dd7e952911b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/VisualCube.prefab using Guid(5a5be8e0388433a4da8dd7e952911b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbec8ba88cb0f4864dc8c68e208a3863') in 0.095302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/SpeakerB.prefab
+  artifactKey: Guid(d6009add3daab6e4ca75ff9c8e0e79cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/SpeakerB.prefab using Guid(d6009add3daab6e4ca75ff9c8e0e79cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbd7fa44d42f6ef324b9c3628edb0aa') in 0.031496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/SpeakerPile.prefab
+  artifactKey: Guid(ce9bb4abf8cbae740a1e6d4d8de8f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/SpeakerPile.prefab using Guid(ce9bb4abf8cbae740a1e6d4d8de8f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfad9821c8074c9090c0ccadc2f898f3') in 0.016293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/WindowSettingsPersonB.prefab
+  artifactKey: Guid(0afcfa7178a6e4e41bf6382be5a092ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/WindowSettingsPersonB.prefab using Guid(0afcfa7178a6e4e41bf6382be5a092ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de0bb3b2fcd6b79499786518df71643') in 0.027439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/Cubes3D.prefab
+  artifactKey: Guid(00c34d26236e9054aa0f227fea5e802e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/Cubes3D.prefab using Guid(00c34d26236e9054aa0f227fea5e802e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1c9b89d39b98574561b46789d89631') in 0.013304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/PersonA.mat
+  artifactKey: Guid(ece549ca7a040b845a173fe9b67e97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/PersonA.mat using Guid(ece549ca7a040b845a173fe9b67e97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edec2b831defb73e8f2a8b6b57a8869') in 0.029760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/ButtonSilence.prefab
+  artifactKey: Guid(b465547a3e79eb2469a98e7170c69a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/ButtonSilence.prefab using Guid(b465547a3e79eb2469a98e7170c69a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f3dc327e51a072c647b4b05629d530') in 0.007744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/VisualsA.prefab
+  artifactKey: Guid(2d347bc751b3a834693fd6bb6764e5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/VisualsA.prefab using Guid(2d347bc751b3a834693fd6bb6764e5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0728f6b4c7c6d4d5e8e8ae06e560452') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/VisualCubePersonB.prefab
+  artifactKey: Guid(7afa9da9f23d98c4094400d5395b91dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/VisualCubePersonB.prefab using Guid(7afa9da9f23d98c4094400d5395b91dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee6fd6a7ef351ca53082977f3c8c1d1') in 0.010387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/WindowAbout.prefab
+  artifactKey: Guid(36bb5e03ec46c704fa3a086926dc9488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/WindowAbout.prefab using Guid(36bb5e03ec46c704fa3a086926dc9488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053ae835b7fc80ff3cab6dacf17c61b8') in 0.017645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/Main Camera.prefab
+  artifactKey: Guid(0d805da5c54ad5941b5561ff6a2fb994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/RTVoice/Demo/Prefabs/Main Camera.prefab using Guid(0d805da5c54ad5941b5561ff6a2fb994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecceb913f6e328519c2cbb1cee11947') in 0.005882 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

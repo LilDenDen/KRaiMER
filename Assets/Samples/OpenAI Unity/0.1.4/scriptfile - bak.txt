@@ -1,0 +1,60 @@
+{
+"episode": "The Great Fruit Debate",
+"Characters": [
+"Jerry",
+"Elaine",
+"George"
+],
+"script": [
+{
+"name": "Jerry",
+"emotion": "Baffled",
+"dialogue": "What's the deal with everyone being obsessed with fruits lately?"
+},
+{
+"name": "Elaine",
+"emotion": "excited",
+"dialogue": "Jerry, it's all about getting the vitamins and minerals your body needs."
+},
+{
+"name": "George",
+"emotion": "Serious",
+"dialogue": "I personally believe the banana is the best fruit. It's portable, healthy, and always in season."
+},
+{
+"name": "Jerry",
+"emotion": "Disagreeing",
+"dialogue": "Bananas? Are you kidding me? Apples are the best. They're crunchy, sweet, and have that perfect balance of flavor."
+},
+{
+"name": "Elaine",
+"emotion": "Defiant",
+"dialogue": "Sorry guys, but you're both wrong. Grapes are the best. They're juicy, come in different colors, and are perfect for snacking."
+},
+{
+"name": "George",
+"emotion": "Disagreeing",
+"dialogue": "Grapes? How can you even compare those to a banana or an apple?"
+},
+{
+"name": "Jerry",
+"emotion": "Skeptical",
+"dialogue": "Exactly, and besides, grapes are always seeded. What's the point of that?"
+},
+{
+"name": "Elaine",
+"emotion": "Frustrated",
+"dialogue": "Well, I still say grapes are the best. You guys just don't appreciate them like I do."
+},
+{
+"name": "Jerry",
+"emotion": "Teasing",
+"dialogue": "Well, I guess we'll just have to agree to disagree on this one."
+},
+{
+"name": "George",
+"emotion": "Amused",
+"dialogue": "Yeah, I guess the great fruit debate will have to continue another day."
+}
+]
+}
