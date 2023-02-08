@@ -22,17 +22,18 @@ namespace OpenAI
         string path;
 
         private OpenAIApi openai = new OpenAIApi();
-        private string promptFormat;
+
 
         private string formattedText = " ";
 
         private bool isRunning = false; // is speaking
+        private bool paused = false;
+        private bool isComplete = false; // test
 
-        private bool isComplete = false;
-
+        private string promptFormat;
         private string currentScript;
         private int scriptIndex;
-        private bool paused = false;
+
 
 
         private void Start()
@@ -64,15 +65,14 @@ namespace OpenAI
 
 
 
-            if (isTest)
+            if (isTest) //This is just pulling a prebuilt script instead of running CHATGPT
             {
-                string textFile = File.ReadAllText(path + "\\textFiles\\scriptfile.txt");
+                string textFile = File.ReadAllText(path + "\\textFiles\\scriptfile.txt"); 
                 currentScript = textFile;
                 scene = JsonConvert.DeserializeObject<Scene>(textFile);
 
 
             }
-            // Complete the instruction
             else
             {
 
@@ -86,8 +86,8 @@ namespace OpenAI
                 formattedText = $"\n{completionResponse.Choices[0].Text}\n";
                 textArea.text = formattedText;
 
-                aiReply = completionResponse.Choices[0].Text;
-                currentScript = aiReply;
+                aiReply = completionResponse.Choices[0].Text; //Get text from GPT into string
+                currentScript = aiReply;  //store the script in global variable
 
                 //Create a Scene Object, properties in class at bottom
                 scene = JsonConvert.DeserializeObject<Scene>(aiReply);
@@ -100,7 +100,7 @@ namespace OpenAI
             button.enabled = true;
         }
 
-        public void Speak(string tts, string name)
+        public void Speak(string tts, string name) //basic ass speaker differentiate
         {
             isRunning = true;
             if (name == "Jerry")
@@ -142,7 +142,7 @@ namespace OpenAI
                 Speak(actor.dialogue, actor.name);
             }
 
-            isComplete = true;
+            isComplete = true; // temp just so there's no function overlap with ScriptPause()
         }
 
 
@@ -200,7 +200,7 @@ namespace OpenAI
         }
 
 
-        private void isSpeakingCheck(Crosstales.RTVoice.Model.Wrapper wrapper)
+        private void isSpeakingCheck(Crosstales.RTVoice.Model.Wrapper wrapper) //May be a better way to do this but using built in Event Listener this seems the simplest
         {
 
             isRunning = false;
@@ -208,7 +208,7 @@ namespace OpenAI
 
         }
 
-        private async Task<string> GenGPTCall(string prompt)
+        private async Task<string> GenGPTCall(string prompt) //Unfinished Function. In process of making a Generic GPT call instead of it being hardcoded in DialogueMananger()
         {
 
             
