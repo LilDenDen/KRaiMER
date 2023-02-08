@@ -37,7 +37,7 @@ namespace OpenAI
 
         private void Start()
         {
-            intializePaths();
+            intializePaths(); // Had to make this to get the application path when the script runs
 
 
             textArea.color = Color.white;
@@ -46,7 +46,7 @@ namespace OpenAI
 
             Speaker.OnSpeakComplete += isSpeakingCheck;             //Event to check when speaker is done talking
 
-            button.onClick.AddListener(ScriptPause);
+            button.onClick.AddListener(ScriptPause); // Listener looking for button
         }
 
         private void intializePaths()
